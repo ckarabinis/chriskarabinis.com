@@ -4,12 +4,12 @@
 /* General Vars */
 :root {
     
-    --bg-color: #FFFFFF;
+    --bg-clr: #FFFFFF;
 
-    --color-primary: #020100;
-    --color-second: #4E00B0;
-    --color-accent-primary: #8F33FF;
-    --color-accent-second: #ED6A5A;
+    --clr-primary: #020100;
+    --clr-second: #4E00B0;
+    --clr-accent-primary: #8F33FF;
+    --clr-accent-second: #ED6A5A;
 
     --ff-primary: "Rubik", sans-serif;
     --fw-300: 300;
@@ -26,6 +26,10 @@
     text-decoration: none;
     outline: none;
     line-height: 1;
+}
+body {
+    background-color: var(--bg-clr);
+    color: var(--clr-primary);
 }
 
 /* Header */
@@ -52,7 +56,8 @@
 
 }
 .box-cv img {
-    width: 5rem; 
+    width: 3.5rem;
+    cursor: pointer;
 }
 
 
