@@ -1,7 +1,7 @@
 /* Google Font - Rubik */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-/* GENERAL VARIABLES */
 
+/* General Vars */
 :root {
     
     --bg-color: #FFFFFF;
@@ -18,6 +18,7 @@
     --fw-600: 600;
 }
 
+/* Global Styles */
 * {
     padding: 0;
     margin: 0;
@@ -27,10 +28,32 @@
     line-height: 1;
 }
 
-
+/* Header */
 #box-header {
     max-width: 160rem; /*2K Resolution */
     width: 100%;
     height: 6.875rem;
+    display: flex; 
+    padding-top: 2rem;
 }
+.box-logo{
+    width: 50%;
+    padding-left: 4rem;
+}
+.box-logo img {
+    width: 7rem;
+}
+.box-cv {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3rem;
+
+}
+.box-cv img {
+    width: 5rem; 
+}
+
+
 
